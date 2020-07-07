@@ -5,6 +5,12 @@
 <% } %>
 
 <% if(success_msg!= '') { %>
-<p><%=success_msg %> </p>
+        <p><%=success_msg %> </p>
+      <% } %>
+
+<% if(error_msg != '') { %>
+      <p><%= error_msg %></p> 
       <% } %> 
-      
+<% if(error != '') { %>
+       <p><%= error %> </p>
+      <% } %> 
